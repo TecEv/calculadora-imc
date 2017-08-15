@@ -60,6 +60,10 @@
 
 <div class="corpo">
 	<form class="form_imc" action="" method="post" id="form_imc">
+		<div class="icone">
+			<!-- <img src="public_html/wp-content/plugins/tecev-calculadora-imc/icone.png" alt="icone"> -->
+			<img src="<?php echo plugins_url('icone.png', __FILE__ ) ?>" alt="icone">
+		</div>
 		<div class="titulo">
 			Calcule seu IMC
 		</div>
