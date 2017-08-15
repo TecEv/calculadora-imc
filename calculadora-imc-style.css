@@ -1,0 +1,55 @@
+.corpo, .form_imc {
+	bottom: 0;
+	width: 350px;
+	margin: auto;
+}
+
+.titulo {
+	font-size: 22px;
+	font-weight: 800;
+	padding-bottom: 20px;
+}
+
+.peso, .altura {
+	width: 100px;
+	display: inline-block;
+}
+
+.peso input, .altura input {
+	color: #000000;
+	border-color: #000000;
+}
+
+.btn_calcular {
+	margin-left: 20px;
+}
+
+.resultado {
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+
+.imc, .imc_label, .classificacao {
+	display: inline-block;
+}
+
+.imc {
+	font-size: 20px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge, Opera */
+    opacity: 0.2;
+    font-size: 16px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	opacity: 0.2;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	opacity: 0.2;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	opacity: 0.2;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+	opacity: 0.2;
+}
